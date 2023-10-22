@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1277px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 165px;
+  margin-right: 164px;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.nav__link {
+  font-family: Jost-Medium;
+}/*# sourceMappingURL=main.css.map */
+
+.nav__link {
+  color: #333136;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.container2 {
+  background-color: #E7816B;
+  background-image: url(../static/images/Group\ 64\ Copy\ \(3\).png);
+  display: flex
+}
+
+.txt1 {
+  color: #FFF;
+ font-family: 'jost';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  width: 540px;
+  height: 165px;
+  flex-shrink: 0;
+  margin-top: 145px;
+  margin-left: 95px;
+}
+.txt2 {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 95px;
+}
+.btn__side {
+  width: 152px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  color: #333136;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 95px;
+  border: none;
+}
+.container2 {
+  background-image: url(../static/images/Group\ 64\ Copy\ \(3\).png);
+  border-radius: 15px;
+   display: flex;
+   margin-top: 67px;
+}
+.phone {
+  width: 265px;
+  height: 559px;
+  flex-shrink: 0;
+  bottom: -100px;
+}
+.txt3 {
+  margin-top: 100px;
+}
+.links {
+ display: flex;
+ margin-top: 160px;
+
+  
+}
+.link {
+  background-image: url(../static/images/Bitmap.png);
+  background-repeat: no-repeat;
+}
+.txt4 {
+  color: #fff;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+  margin-top: 160px;
+  padding-left: 138px;
+  padding-top: 100px;
+}
+.txt5 {
+  color: #fff;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-left: 170px;
+  padding-top: 24px;
+}
+.txt6 {
+  padding-top: 600px;
+  padding-left: 600px;
+}
+.txt7 {
+  color: #fff;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+  padding-top: 107px;
+
+}
+.txt8 {
+  color: #fff;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+}
+.txt9{
+    padding-top: 160px;
+   padding-left: 600px;
+}
+.link2 {
+   background-image: url(../static/images/Bitmap\ \(5\).jpg);
+   background-repeat: no-repeat;
+   margin-left: 33px;
+}
+.link3 {
+  background-image: url(../static/images/Bitmap\ \(12\).jpg);
+  background-repeat: no-repeat;
+}
+.txt10 {
+  text-align: center;
+  color: #333136;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  margin-top: 48px;
+}
+.txt11 {
+  text-align: center;
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-top: 32px;
+}
+.decoration {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 118px;
+}
+.svg__logo {
+  margin-left: 50px;
+}
+.txt12 {
+  color: #FFF;
+   font-family: Jost;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 40px;
+   margin-left: 95px;
+}
+.txt13 {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 95px;
+  margin-top: 20px;
+}
+.btn__side2 {
+  width: 152px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: #FFF;
+  color: #333136;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+ margin-left: 400px;
+ margin-right: 95px;
+}
+
+.card {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  border-radius: 15px;
+  background: #E7816B;
+  height: 292px;
+  margin-top: 166px;
+}
+.txt14 {
+  color: #FFF;
+  position: absolute;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  padding-top: 165px;
+  padding-left: 95px;
+}
+.txt15 {
+  color: #FFF;
+  position: absolute;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  padding-top: 220px;
+  padding-left: 95px;
+  
+ 
+ 
+}
+.card3 {
+  display: flex;
+  width: 640px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #E7816B;
+  margin-left: 165px;
+  margin-top: 70px;
+}
+.photo1 {
+   margin-left: 600px;
+   border-radius: 15px;
+}
+.txt16 {
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.txt17 {
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.txt18 {
+   margin-left: 1300px;
+}
+.cards2 {
+   margin-top: 600px;
+   gap: 100px;
+   border-radius: 15px;
+   padding-top: 50px;
+}
+.txt19 {
+  color: #E7816B;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+  letter-spacing: 5px;
+}
+.txt20 {
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+}
+.cards4 {
+   margin-top: 600px;
+   gap: 33px;
+}
+.cards5 {
+   display: flex;
+}
+.link5 {
+   display: flex;
+}
+.photo2 {
+  width: 476px;
+   height: 640px;
+  flex-shrink: 0;
+  margin-top: 160px;
+  margin-left: 165px;
+}
+.txt21 {
+  color: #E7816B;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 30px;
+}
+.txt22 {
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px; 
+}
+.cards6 {
+   display: flex;
+}
+.txt23 {
+ margin-top: 154px;
+  margin-left: 94px;
+}
+.card7 {
+  border-radius: 15px;
+  background: #FDF3F0;
+  width: 1111px;
+  height: 640px;
+  margin-top: 160px;
+}
+.txt24 {
+  color: #333136;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+  letter-spacing: 5px;
+}
+.btn__side3 {
+  width: 152px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #E7816B;
+  color: #FFF;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  border: none;
+}
+.decoration2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 118px;
+  margin-top: 160px;
+}
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 71px;
+  margin-top: 700px;
+  gap: 100px;
+}
+.txt25 {
+  opacity: 0.5;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer1 {
+   display: flex;
+   gap: 100px;
+}
